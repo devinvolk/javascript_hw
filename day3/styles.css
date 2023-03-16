@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'pokefont';
+    src: url('pokemon_font.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'pokefont';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-label {
+    display: flex;
+    justify-content: center;
+}
+
+#searchDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 0.5em;
+}
+
+h5, .list-group-item {
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+}
